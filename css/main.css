@@ -13,3 +13,33 @@ html {
   text-align: center;
   max-height: 500px;
   bottom: 0;
+  height: 500px;
+  width: 45em;
+}
+
+.banner-content {
+  position: absolute;
+  top: 15%;
+  left: 35%;
+  font-size: 4rem;
+  line-height: 1.5;
+  font-weight: bold;
+  width: 50em;
+  color: #fff;
+  width: 45em;
+}
+
+.img-flex {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  color: #fff;
+  font-size: 2rem;
+  transform: translate(-50%, -15%);
+}
+
+.logo{
+  position: absolute;
+  top: 20%;
+  left: 18%;
+}
