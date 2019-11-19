@@ -1,0 +1,15 @@
+html {
+  font-family: "Roboto";
+  font-style: "bold";
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+}
+.banner {
+  position: relative;
+  text-align: center;
+  max-height: 500px;
+  bottom: 0;
