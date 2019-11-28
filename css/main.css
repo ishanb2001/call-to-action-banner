@@ -58,7 +58,7 @@ p {
 }
 
 
-a{
+.btn {
   font-size: 1.125rem;
   color: #fff;
   border-radius: 8px;
@@ -79,6 +79,6 @@ a{
   width: 33%;
 }
 
-a:hover {
-  background-color: #fff;
+.btn:hover {
+  background-color: #000;
 }
