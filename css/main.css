@@ -9,6 +9,7 @@ html {
 }
 
 body {
+  padding: 0;
   margin: 0;
 }
 
@@ -21,14 +22,14 @@ body {
 
 .banner-content {
   position: absolute;
-  left: 65%;
   max-width: 50em;
   width: 100%;
   color: #fff;
-  padding: 0 1.5rem;
-  bottom: -.5em;
+  padding: 0 1rem;
   transform: translateX(-50%);
   display: flex;
+  left: 50%;
+  top: 50%;
   justify-content: space-between;
   align-items: flex-start;
   max-width: 45em;
@@ -51,14 +52,14 @@ div h2 {
 
 p {
   text-align: left;
+  padding: .5em 0.75;
   font-size: 1.5rem;
   margin-top: 1rem;
-  padding-bottom: 0;
   color: #000;
 }
 
 
-.btn {
+a{
   font-size: 1.125rem;
   color: #fff;
   border-radius: 8px;
@@ -66,6 +67,19 @@ p {
   display: inline: block;
   background-color: #333;
   padding: .5em .8em .57em;
+}
+
+.btn{
+  color: #fff;
+  border-radius: 8px;
+  background-color: #333;
+  text-decoration: none;
+  display: inline-block;
+  border: 3px solid #333;
+}
+
+.graphic{
+  width: 33%
 }
 
 }
@@ -79,6 +93,6 @@ p {
   width: 33%;
 }
 
-.btn:hover {
-  background-color: #000;
+a:hover {
+  background-color: #fff;
 }
